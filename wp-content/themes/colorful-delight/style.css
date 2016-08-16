@@ -1,0 +1,111 @@
+/*
+ Theme Name:   Colorful Delight
+ Theme URI:    http://colorfuldelight.busymomibeeblogdesigns.com
+ Description:  Twenty Twelve Child Theme
+ Author:       Busy Momi Bee - Shawna B.
+ Author URI:   http://busymomibeeblogdesigns.com/about
+ Template:     twentytwelve
+ Version:      1.2.1
+ License: GNU General Public License v2.0
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         orange, purple, blue, two-columns, right-sidebar, custom-background, custom-colors
+ Text Domain:  twenty-fourteen-child
+*/
+@import url("../twentytwelve/style.css");
+@import url(http://fonts.googleapis.com/css?family=Reenie+Beanie);
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+body {
+    background: url(images/ColorfulDelightBG.png);
+}
+
+a {
+	color: #50BAE2;
+	}
+	
+a:hover{
+	color: #E98557;
+	}	
+
+.site-header h1 {
+	text-align: center;
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 60px;
+	}
+
+.site-header h1 a {
+	color: #816B88;
+	}
+	
+.site-header h1 a:hover {
+	color: #E98557;
+	}	
+	
+.site-header h2 {
+	text-align: center;
+	font-size: 20px;
+	}	
+
+.main-navigation div.nav-menu > ul {
+    background-color: #50BAE2;
+    text-align: center;
+}
+
+.main-navigation div.nav-menu > ul {
+	background-color: #50BAE2;
+	}
+	
+.main-navigation .current_page_item > a	{
+	color: #fff;
+	padding: 2px;
+	}
+	
+.main-navigation li ul li a {
+	background: #816B88;
+	border-bottom: none;
+	text-align: left;
+	}
+	
+.main-navigation li ul li a:hover {
+	background: #50BAE2;
+	color: #fff;
+	text-align: left;
+	}
+	
+.main-navigation li a {
+	color: #fff;
+	}	
+	
+.main-navigation li a {
+    color: #FFF;
+    font-size: 15px;
+     }
+	
+.entry-header .entry-title {
+	color: #50BAE2;
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 36px;
+	font-weight: bold;
+	}	
+	
+.comments-link a, .entry-meta a {
+    color: #E98557;
+}
+	
+.widget-area .widget h3 {
+	background-color: #816B88;
+	}	
+	
+.widget-title {
+	color: #fff;
+	padding: 5px;
+	}	
+	
+.widget-area .widget a {
+	color: #50BAE2;
+	}
+	
+.widget-area .widget a:hover {
+	color: #E98557;
+	}	
